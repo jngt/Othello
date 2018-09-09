@@ -1,3 +1,3 @@
 # Othello
 Othello for 2 players
-<img width="353" alt="img" src="https://user-images.githubusercontent.com/28561230/37206741-44552dee-23dd-11e8-86aa-e8e0e2de8c63.png">
+<img width="351" alt="img" src="https://user-images.githubusercontent.com/28561230/45263770-f41eea80-b46a-11e8-8bef-78fdfff58d72.png">
