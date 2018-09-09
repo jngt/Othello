@@ -7,18 +7,18 @@ body {
   float: left;
 }
 #turn {
-  float: left;
+  /* float: left; */
   font-size: 20px;
 }
 #black {
-  float: left;
+  /* float: left; */
   font-size: 20px;
 }
 #white {
-  float: left;
+  /* float: left; */
   font-size: 20px;
 }
 #end {
-  float: left;
+  /* float: left; */
   font-size: 20px;
 }
