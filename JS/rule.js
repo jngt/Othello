@@ -13,18 +13,18 @@ canvas.onclick = function(e) {
     st.turn *= -1;
     render();
     if (st.canput == 0){
-      document.getElementById("end").value = WhichWin();
+      document.getElementById("end").innerText = WhichWin();
     }else{
-      document.getElementById("end").value = "Pass!";
+      document.getElementById("end").innerText = "Pass!";
     }
   }
 }
 function WhichWin(){
   var comment = ""
   if (st.black > st.white){
-    comment = "Winner:Black";
+    comment = "Winner: Black";
   }else if (st.black < st.white){
-    comment = "Winner:White";
+    comment = "Winner: White";
   }else {
     comment = "Draw!";
   }

@@ -54,10 +54,10 @@ function render(){
   st.canput = HowManyCanPut();
   st.black = HowMany(1);
   st.white = HowMany(-1);
-  document.getElementById("turn").value = "次: " + txt_turn[(st.turn+1)/2];
-  document.getElementById("black").value = "●: " + st.black;
-  document.getElementById("white").value = "○: " + st.white;
-  document.getElementById("end").value = ""
+  document.getElementById("turn").innerText = "次: " + txt_turn[(st.turn+1)/2];
+  document.getElementById("black").innerText = "●: " + st.black;
+  document.getElementById("white").innerText = "○: " + st.white;
+  document.getElementById("end").innerText = ""
 }
 
 function drawBoard(){
